@@ -10,3 +10,8 @@ Prerequisits:
 
 4. Install metallb using (https://metallb.universe.tf/installation/)
 	helm install --name metallb stable/metallb
+5. Install nginx to setup reverse proxy
+     brew install nginx
+
+6. Setup reverse proxy to point to specified nodeport using instructions below
+	https://kirillplatonov.com/2017/11/12/simple_reverse_proxy_on_mac_with_nginx/
